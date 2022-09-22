@@ -1,0 +1,12 @@
+//This program will take a number with a fractional part and rounds it to two decimal places
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int a;
+ clrscr();
+ printf("Enter a number (decimal is must):\n");
+ scanf("%f",&a);
+ printf("The round off form of %f is %.2f",a,a);
+ getch();
+}

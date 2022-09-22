@@ -1,0 +1,36 @@
+//This program is used to convert kilometer into meter & meter into kilometer
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int a;
+ clrscr();
+ printf("For meter to kilomecter, enter 1\n For kilometer to meter, enter 4\n");
+ scanf("%d",&a);
+  if ( 1 <= a <= 2 )
+  {
+  switch(a)
+   {
+   case 1:
+     double b,c;
+     printf("Enter the number in meter\n");
+     scanf("%If",&b);
+     c = b*1000;
+     printf("%If in kilometer is %If\n",b,c);
+    break;
+
+   case 2:
+     double d,e;
+     printf("Enter the number in kilometer\n");
+     scanf("%If",&d);
+     e = d/1000;
+     printf("%If in meter is %If\n",d,e);
+    break;
+   }
+  }
+  else
+  {
+    printf("Enter the number from  above given option");
+  }
+ getch();
+}

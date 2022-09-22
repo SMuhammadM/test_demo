@@ -1,0 +1,19 @@
+//This program will store the value 'A','U',3.456E10 and 50.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ char a,b;
+ int fifty;
+ float an;
+ clrscr();
+ printf("Enter an alphabet\n");
+ scanf("%c",&a);
+ printf("Enter the alphabet\n");
+ scanf("%c",&b);
+ printf("Enter an alphanumeric value\n");
+ scanf("%f",&an);
+ fifty = 50;
+ printf("%d",fifty);
+ getch();
+}

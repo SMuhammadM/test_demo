@@ -1,0 +1,15 @@
+//This program is designed to find the sum of only two floating point numbers
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ float a,b,sum;
+ printf("Enter number a\n");
+ scanf("%f",&a);
+ printf("Enter number b\n");
+ scanf("%f",&b);
+ sum = a+b;
+ printf("The sum of two floating point number is %f",sum);
+ getch();
+}
